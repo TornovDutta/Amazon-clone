@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+/* nav bar */
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* outer box when hover in the element of navbar */
+.boarder{
+    border: 1.5px solid transparent;
+}
+.boarder:hover{
+    border: 1.5px solid white;
+}
+
+/* box1 */
+/* logo */
+.nav-logo{
+    height: 50px;
+    width: 113px;
+
+}
+.logo{
+    height:49px;
+    width: 99px;
+    padding-left: 6px;
+    padding-right: 9px;
+    background-image:url(..//image/amazon_logo.png);
+    background-size:cover;
+}
+/* box2 */
+/* Address and icon */
+.address-f{
+    color:#cccccc;
+    font-size:.85rem;
+    margin-left:15px;
+}
+.address-s{
+    font-size: 1rem;
+    margin-left:3px
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+/* box3 */
+/* search */
+.nav-search{
+    display: flex;
+    background-color: transparent;
+  height: 50px;
+   width:600px;
+   border-radius: 4px;
+}
+.nav-search:hover{
+    border: 4px solid #febd68;
+}
+.all_option{
+    border-top-left-radius:4px ;
+    border-bottom-left-radius: 4px ;
+    text-align: center;
+    border:none;
+    background-color: #e6e6e6;
+    width: 60px;
+}
+.search_bar{
+    width: 100%;
+    border: none;
+    font-size:15px;
+}
+.search-icon{
+    background-color: #febd68;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 55px;
+    font-size: 1.2rem;
+    color:#0f1111;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius: 4px ;
+}
+
+
+/* box4 */
+/* country */
+.nav-country{
+    display:flex;
+}
+.cou-en{
+    display: flex;
+}
+
+.img{
+    height: 16px;
+    width: 21px;
+    background-image:url(../image/usa.png) ;
+    background-size: cover;
+    margin: 6px;
+}
+.EN{
+    position:relative;
+    top:5px;
+}
+#en{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+/* box5 */
+span{
+    font-size:12px;
+}
+.nav-sign p{
+    font-weight: 700;
+}
+
+/* box6 */
+span{
+    font-size:12px;
+}
+.nav-return p{
+    font-weight: 700;
+}
+
+
+/* box7 */
+.nav-cart {
+    font-size:.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+
+
+
+/* pannel */
+
+/* all */
+.pannel{
+    display: flex;
+    background-color: #222f3b;
+    color:white;
+    align-items: center;
+    height: 40px;
+}
+.pannel-all{
+    font-weight: 700;
+
+}
+.pannel-op{
+    margin-left: 15px;
+    display: flex;
+    
+}
+.pannel-op p{
+    margin-left: 15px;
+    font-size: .85rem;
+}
+
+
+
+/* hero */
+.hero{
+    height: 350px;
+    background-image: url(..//image/hero_image.jpg);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 90%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.hero-msg a{
+    color:blue;
+    margin: 2px;
+    text-decoration: none;
+}
+
+
+
+/* shop */
+.shop{
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 270px;
+    width: 300px;
+    margin-top: 15px;
+    background-color: white;
+}
+.box1 a{
+    color:#007185;
+    padding-left: 15px;
+    
+}
+.box1 h2{
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+
+.box4 a{
+    color:#007185;
+    padding-left: 15px;
+    
+}
+.box4 h2{
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.box-img{
+    height: 65%;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+
+/* footer */
+footer{
+    margin-top: 15px;
+}
+.foot-pannel-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    color:white;
+    height: 50px;
+    
+}
+.foot-pannel-2{
+    background-color: #222f3d;
+    color:white;
+    height: 300px;
+    display:flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul p{
+    font-weight: 700;
+}
+ul a{
+    display:block;
+    font-size:0.85rem;
+    margin-top: 10px;
+    color:#dddddd;
+}
+.foot-pannel-3{
+    background-color:#222f3d ;
+    border-top:.2px solid white;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
